@@ -1,0 +1,145 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'arial';
+}
+
+body {
+    background: rgb(235, 235, 235);
+}
+
+.menu {
+    background-color: rgb(14, 14, 14);
+
+}
+
+.center {
+    max-width: 2000px;
+    padding: 0 2%;
+    margin: 0 auto;
+}
+
+.clear {
+    clear: both;
+}
+
+.menu__img {
+    float: left;
+    margin: 5px 0;
+}
+
+.menu__text {
+    display: inline-flex;
+    width: 50%;
+    padding: 20px 20px;
+
+}
+
+.menu__text h1 {
+    font-size: 20px;
+    color: white;
+
+}
+
+.menu__img img {
+    max-width: 55px;
+    width: 100%;
+    border-radius: 100px;
+    border: 2px solid white;
+}
+
+.menu__links {
+    float: right;
+    margin: 20px 0;
+
+}
+
+.menu__links a {
+    text-decoration: none;
+    font-size: 22px;
+    padding: 0px 30px;
+    color: white;
+    margin-top: 5px;
+
+}
+
+.menu__links a.menu__links__activate {
+    border-bottom: 1px solid white;
+}
+
+.menu__links a:hover {
+    color: rgb(100, 100, 100);
+    transition: 0.3s;
+}
+
+.menu__mobile,
+.menu__mobile-wrap {
+    display: none;
+}
+
+@media screen and (max-width:780px) {
+    .menu {
+        position: relative;
+    }
+
+    .menu__links,
+    .menu__links a {
+        display: none;
+    }
+
+    .menu__text {
+        padding: 25px 10px;
+        margin-right: 2px;
+
+    }
+
+    .menu__text h1 {
+
+        font-size: 13px;
+
+    }
+
+    .menu__mobile {
+        display: block;
+        float: right;
+        padding: 10px;
+    }
+
+    .menu__mobile i {
+        color: white;
+        padding: 14px;
+        font-size: 18px;
+
+    }
+
+    .menu__mobile-wrap {
+        position: absolute;
+        height: 160px;
+        width: 100%;
+        top: 100%;
+        left: 50%;
+        transform: translate(-50%);
+        border: 2px solid white;
+        background: black;
+        border-radius: 10px;
+
+    }
+
+    .menu__mobile-wrap a {
+        display: block;
+        border: 2px solid white;
+        text-decoration: none;
+        font-size: 20px;
+        padding: 0 5px;
+        margin: 20px 30px;
+        text-align: center;
+        color: white;
+        border-radius: 20px;
+    }
+
+    .menu__mobile-wrap a:hover {
+        background: rgb(50, 50, 50);
+        transition: 0.3s;
+    }
+}

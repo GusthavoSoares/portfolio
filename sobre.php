@@ -27,8 +27,8 @@
 </div> <!--menu__text-->
 
     <div class="menu__links">
-        <a href='home.php' class="menu__links__activate">Home</a>
-        <a href='sobre.php'>Sobre</a>
+        <a href='home.php' >Home</a>
+        <a href='sobre.php' class="menu__links__activate">Sobre</a >
         <a href='contato.php'>Contato</a>
     </div><!--menu__links-->
 
@@ -53,3 +53,5 @@
 </script>
 </body>
 </html>
+
+<!-- git add . = adicionar arquivos no git-hub -->
