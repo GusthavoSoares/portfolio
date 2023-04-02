@@ -27,7 +27,7 @@
 </div> <!--menu__text-->
 
     <div class="menu__links">
-        <a href='home.php' >Home</a>
+        <a href='index.php' >Home</a>
         <a href='sobre.php'>Sobre</a>
         <a href='contato.php' class="menu__links__activate">Contato</a>
     </div><!--menu__links-->
@@ -36,7 +36,7 @@
     <i class ="fa-solid fa-bars" id="menu-mobile"></i>
     </div>
     <div class="menu__mobile-wrap">
-    <a href='home.php'>Home</a>
+    <a href='index.php'>Home</a>
     <a href='sobre.php'>Sobre</a>
     <a href='contato.php' >Contato</a>
     </div>
