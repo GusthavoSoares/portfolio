@@ -78,7 +78,53 @@ body {
     display: none;
 }
 
-@media screen and (max-width:780px) {
+section.side-info {
+max-width:2000px;
+display:flex;
+height:100vh;
+}
+
+div.side-info__flex-left {
+    padding:10px 2%;
+    width: 20%;
+    align-items: center;
+    background-color: rgb(25, 24, 24);
+    height: 100%;
+    
+}
+div.side-info__flex-right{
+    width:80%;
+    background:rgb(150,150,150);
+    height:100%;
+    padding:10px 2%;
+}
+
+
+ul.flex-left__list{
+    padding:20px 20px;
+    list-style-type:none;
+    border:2px solid white;
+    background-color:rgba(51,51,51, 0.5);
+    border-radius:50px;
+}   
+
+ul.flex-left__list > li{
+    margin-bottom:20%;
+    padding:20px 2%;
+    border:2px solid #ccc;
+    text-align:center;
+    border-radius:20px;
+
+}
+
+ul.flex-left__list > li > a{
+    text-decoration:none;
+    color:white;
+    font-size:20px;
+}
+
+
+@media screen and (max-width:930px) {
     .menu {
         position: relative;
     }
