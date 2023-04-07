@@ -11,11 +11,16 @@
         content="Este é meu portfólio utilizando CSS3, HTML5, Font Awesome, jQuery e JqueryUI, além de JS">
     <title>Gusthavo Soares - Portfólio</title>
     <link rel="stylesheet" href="./css/style.css">
-</head>
-<style>
+    <meta property="og:title" content="Portfólio - Gusthavo Soares">
+    <meta property="og:site_name" content="Portfólio">
+    <meta property="og:description" content="Portfólio feito com HTML5, CSS, JavaScript e jQuery!">
+    <meta property="og:url" context="https/gusthavosoares/portfolio">
+    <meta property="og:image" content="./img/front.jpg">
+    <meta property="og:image:type" content="image/jpeg" </head>
+    <style>
 
 
-</style>
+    </style>
 
 <body>
     <header class="menu">
@@ -35,7 +40,7 @@
             </div><!--menu__links-->
 
             <div class="menu__mobile">
-                <i class="fa-solid fa-bars" id="menu-mobile"></i>
+                <i class="fa-solid fa-bars" ></i>
             </div>
             <div class="menu__mobile-wrap">
                 <a href='index.html'>Home</a>
@@ -48,48 +53,156 @@
 
     <!--Barra de informações -->
     <section class="side-info">
-         <div class="side-info__flex-left">
-             <ul class="flex-left__list">
-                <li><a href="#">Quem sou eu</a></li>
-                <li><a href="#">Experiência profissional</a></li>
-                <li><a href="#">Habilidades</a></li>
-                <li><a href="#">Projetos</a></li>
+        <div class="side-info__flex-left">
+            <ul class="flex-left__list">
+                <li><a href="#" class="who" id="link">Quem sou eu</a></li>
+                <li><a href="#" class="professional" id="link">Experiência profissional</a></li>
+                <li><a href="#" class="skills" id="link">Habilidades</a></li>
+                <li><a href="#" class="projects" id="link">Projetos</a></li>
             </ul><!--flex-left__list-->
-         </div><!--side-info__flex-left-->
+        </div><!--side-info__flex-left-->
         <div class="side-info__flex-right">
+            <section class="profissional">
+                <h1>Experiência profissional</h1>
+
+                    <div class="double item-1">
+                    <div class="double-title">
+                    <h5>TJRS - 16° Vara Cível</h5>
+                    <div class="double-wrap">
+                        <img src="./img/16_foto_1.jpg">
+                    </div><!--double-wrap-->
+                    <p>10/2022 até Atualmente</p>
+                    </div><!--double-title-->
+                    <div class="double-footer">
+                       <p>Estagiário</p>
+                        <li><span>Arquivamento processual</span></li>
+                        <li><span>Atendimento ao público</span></li>
+                        <li><span>Elaboração de documentos</span></li>
+                        <li><span>Sistemas E-PROC e Themis</span></li>
+                        <li><span>Instalação e manutenção de hardware</span></li>
+                       </ul>                 
+                    </div><!--double-footer-->
+                    </div><!--double-->
+                    <div class="double">
+                        <div class="double-title">
+                        <h5>TJRS - CRAV</h5>
+                        <div class="double-wrap">
+                            <img src="./img/crav.jpg">
+                        </div><!--double-wrap-->
+                        
+                        <p>04/2022 até 10/2022</p>
+                        </div><!--double-title-->
+                        <div class="double-footer">
+                           <p>Estagiário</p>
+                            <li><span>Remontagem processual</span></li>
+                            <li><span>Higienização processual</span></li>
+                            <li><span>Conferência processual</span></li>
+                            <li><span>NAPS e Syged</span></li>
+                            <li><span>Digitalização processual</span></li>
+                            <li><span>Indexação 
+                            processual</span></li>
+                           </ul>                 
+                        </div><!--double-footer-->
+                    </div><!--double-->
+                    <div class="double">
+                        <div class="double-title">
+                            <h5>Hipermercado Zaffari</h5>
+                            <div class="double-wrap">
+                                <img  src="./img/cavalhada.jpg">
+                            </div><!--double-wrap-->
+                            <p>02/2022 até 04/2022</p>
+                        </div><!--double-title-->
+                        <div class="double-footer">
+                            <p>Empacotador<p>
+                                <li><span>Atendimento aos clientes</span></li>
+                                <li><span>Limpeza do mercado</span></li>
+                                <li><span>Devolução de mercadorias</span></li>
+                                <li><span>Empacotamento de produtos</span></li>
+                                <li><span>Demandas administrativas</span></li>
+                            </ul>                 
+                        </div><!--double-footer-->
+                    </div><!--double-->
+                </section><!--profissional-->
+                <section class="habilidades">
+                <h1>Habilidades</h1>
+            </section><!--habilidades-->
+            <section class="projetos">
+                <h1>Projetos</h1>
+            </section><!--projetos-->
+            <section class="quem-sou">
             <h1>Quem sou eu?</h1>
-            <p>Olá! Sou o Gusthavo Soares, tenho 18 anos e sou engenheiro de software com foco na criação Full-Stack, seja para criar um site, aplicativo ou banco de dados.</p>
-            <h1>Metodologia</h1>
-            <div class="old">
-                <h2>O que eu não entrego</h2>
-                <li>Sistemas que não suportam todas as plataformas;</li>
-                <li>Falta de estrutura na codificação;</li>
-                <li> Designs poluídos;</li>
-                <li>Sistemas sem banco de dados;</li>
-            </div><!--old-->
-            <div class="new">
-                <h2>O que eu entrego</h2>
-                <li>Sistemas que suportam todas as plataforma;</li>
-                <li>Estrutura no código;</li>
-                <li> Designs limpos;</li>
-                <li>Sistemas completos com banco de dados;</li>
-            </div><!--new-->
+            <p class="about">Olá! Sou o Gusthavo Soares, tenho 18 anos e sou engenheiro de software com foco na criação
+                Full-Stack, seja para criar um site, aplicativo ou banco de dados.</p>
+            <section class="area-interest">
+                        <h4>Meus interesses</h4>
+                        <div class="wrap-img">
+                            <img src="./img/front.jpg" alt="principais linguagens front-end" class="one">
+                            <span>Front-end</span>
+                        </div><!--wrap-->
+                        <div class="wrap-img">
+                            <img class = "two" src="./img/backend.jpg" alt="principais linguagens back-end">
+                            <span>Back-end</span>
+                        </div><!--wrap-img-->
+                        <div class="wrap-img">
+                            <img  class = "three" src="./img/languages.png" alt="ola em diferentes línguas">
+                            <span>Línguas</span>
+                        </div><!--wrap-img-->
+            </section><!--area-interest-->
+            <section class="diferencial">
+                <h1>Metodologia</h1>
+                <div class="box-flex">
+                    <div class="wrap">
+
+                        <i class="fa-solid fa-helmet-safety"></i>
+
+
+                        <div class="text">
+
+                            <h3>Sites estruturados</h3>
+                            <p>Sites estruturados com boas práticas de codificação</p>
+                        </div><!--text-->
+                    </div><!--wrap-->
+
+                    <div class="wrap">
+                        <i class="fa-brands fa-codepen"></i>
+                        <div class="text">
+                            <h3 class="title-2">Clean code</h3>
+                            <p class="text-2">Poucas linhas de código para uma boa manutenção </p>
+                        </div><!--text-->
+                    </div><!--wrap-->
+                    <div class="wrap">
+                        <i class="fa-solid fa-gear"></i>
+                        <div class="text">
+                            <h3> Design responsivo</h3>
+                            <p>Seu site se adapta a qualquer tipo de dispositivo</p>
+                        </div><!--text-->
+                    </div><!--wrap-->
+                </div><!--box-flex-->
+           
+            </section><!--diferencial-->
+           
+        </div><!--side-info__flex-right-->
+        </section><!--side-info-->
+
+
+
+
         </div><!--side-info__flex-right-->
     </section>
-<section class="slider">
     
-</section>
     <footer>
-        <i class="fa-regular fa-copyright"></i>
-        <div class="copyright">
-            <p>Todos os direitos reservados a Gusthavo Soares</p>
-        </div><!--copyright-->
+            <div class="copy">
+             <i class="fa-regular fa-copyright"></i>
+             <p>Todos os direitos reservados a Gusthavo Soares
+            </p>
+            </div>
         <div class="social-media">
             <a href="https://www.linkedin.com/in/gusthavo-soares-74b5a4224/"><i class="fa-brands fa-linkedin"></i></a>
             <a href="https://github.com/GusthavoSoares"><i class="fa-brands fa-github"></i></a>
-        </div><!--social-media-->
-    </footer>
-        
+        </div>
+    </div>
+    </footer> 
+
 
 
     <script src="https://kit.fontawesome.com/df85906e6a.js" crossorigin="anonymous"></script>
