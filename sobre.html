@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0,max-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1.0">
     <meta name="author" content="Gusthavo Soares">
     <meta name="keywords" content="HTML5,CSS3,jQuery,Github, portfolio, desenvolvimento web">
     <meta name="description"
@@ -16,13 +16,15 @@
     <meta property="og:description" content="Portfólio feito com HTML5, CSS, JavaScript e jQuery!">
     <meta property="og:url" context="https/gusthavosoares/portfolio">
     <meta property="og:image" content="./img/front.jpg">
-    <meta property="og:image:type" content="image/jpeg" </head>
-    <style>
+    <meta property="og:image:type" content="image/jpeg">
+</head>
+<style>
 
 
-    </style>
+</style>
 
 <body>
+    <div class="shadow"></div>
     <header class="menu">
         <div class="center">
             <div class="menu__img">
@@ -40,7 +42,7 @@
             </div><!--menu__links-->
 
             <div class="menu__mobile">
-                <i class="fa-solid fa-bars" ></i>
+                <i class="fa-solid fa-bars"></i>
             </div>
             <div class="menu__mobile-wrap">
                 <a href='index.html'>Home</a>
@@ -63,145 +65,379 @@
         </div><!--side-info__flex-left-->
         <div class="side-info__flex-right">
             <section class="profissional">
+                <div class="btn-click" id="pro">
+                    <button id="modal" class="btn-modal ">Saiba Mais!</button>
+                </div>
+
+
+                <div class="modal-area">
+                    <i class="fa-solid fa-xmark close"></i>
+                    <a href="#" class="who" id="link">Quem sou eu</a>
+                    <a href="#" class="professional" id="link">Experiência profissional</a>
+                    <a href="#" class="skills" id="link">Habilidades</a>
+                    <a href="#" class="projects" id="link">Projetos</a>
+                </div>
                 <h1>Experiência profissional</h1>
 
-                    <div class="double item-1">
+                <div class="double item-1">
                     <div class="double-title">
-                    <h5>TJRS - 16° Vara Cível</h5>
-                    <div class="double-wrap">
-                        <img src="./img/16_foto_1.jpg">
-                    </div><!--double-wrap-->
-                    <p>10/2022 até Atualmente</p>
+                        <h5>TJRS - 16° Vara Cível</h5>
+                        <div class="double-wrap">
+                            <img src="./img/16_foto_1.jpg">
+                        </div><!--double-wrap-->
+                        <p>10/2022 até Atualmente</p>
                     </div><!--double-title-->
                     <div class="double-footer">
-                       <p>Estagiário</p>
+                        <p>Estagiário</p>
                         <li><span>Arquivamento processual</span></li>
                         <li><span>Atendimento ao público</span></li>
                         <li><span>Elaboração de documentos</span></li>
                         <li><span>Sistemas E-PROC e Themis</span></li>
                         <li><span>Instalação e manutenção de hardware</span></li>
-                       </ul>                 
+                        </ul>
                     </div><!--double-footer-->
-                    </div><!--double-->
-                    <div class="double">
-                        <div class="double-title">
+                </div><!--double-->
+                <div class="double">
+                    <div class="double-title">
                         <h5>TJRS - CRAV</h5>
                         <div class="double-wrap">
                             <img src="./img/crav.jpg">
                         </div><!--double-wrap-->
-                        
+
                         <p>04/2022 até 10/2022</p>
-                        </div><!--double-title-->
-                        <div class="double-footer">
-                           <p>Estagiário</p>
-                            <li><span>Remontagem processual</span></li>
-                            <li><span>Higienização processual</span></li>
-                            <li><span>Conferência processual</span></li>
-                            <li><span>NAPS e Syged</span></li>
-                            <li><span>Digitalização processual</span></li>
-                            <li><span>Indexação 
-                            processual</span></li>
-                           </ul>                 
-                        </div><!--double-footer-->
-                    </div><!--double-->
-                    <div class="double">
-                        <div class="double-title">
-                            <h5>Hipermercado Zaffari</h5>
-                            <div class="double-wrap">
-                                <img  src="./img/cavalhada.jpg">
-                            </div><!--double-wrap-->
-                            <p>02/2022 até 04/2022</p>
-                        </div><!--double-title-->
-                        <div class="double-footer">
-                            <p>Empacotador<p>
-                                <li><span>Atendimento aos clientes</span></li>
-                                <li><span>Limpeza do mercado</span></li>
-                                <li><span>Devolução de mercadorias</span></li>
-                                <li><span>Empacotamento de produtos</span></li>
-                                <li><span>Demandas administrativas</span></li>
-                            </ul>                 
-                        </div><!--double-footer-->
-                    </div><!--double-->
-                </section><!--profissional-->
-                <section class="habilidades">
-                <h1>Habilidades</h1>
+                    </div><!--double-title-->
+                    <div class="double-footer">
+                        <p>Estagiário</p>
+                        <li><span>Remontagem processual</span></li>
+                        <li><span>Higienização processual</span></li>
+                        <li><span>Conferência processual</span></li>
+                        <li><span>NAPS e Syged</span></li>
+                        <li><span>Digitalização processual</span></li>
+                        <li><span>Indexação
+                                processual</span></li>
+                        </ul>
+                    </div><!--double-footer-->
+                </div><!--double-->
+                <div class="double">
+                    <div class="double-title">
+                        <h5>Hipermercado Zaffari</h5>
+                        <div class="double-wrap">
+                            <img src="./img/cavalhada.jpg">
+                        </div><!--double-wrap-->
+                        <p>02/2022 até 04/2022</p>
+                    </div><!--double-title-->
+                    <div class="double-footer">
+                        <p>Empacotador
+                        <p>
+                            <li><span>Atendimento aos clientes</span></li>
+                            <li><span>Limpeza do mercado</span></li>
+                            <li><span>Devolução de mercadorias</span></li>
+                            <li><span>Empacotamento de produtos</span></li>
+                            <li><span>Demandas administrativas</span></li>
+                            </ul>
+                    </div><!--double-footer-->
+                </div><!--double-->
+            </section><!--profissional-->
+            <section class="habilidades">
+                <div class="btn-click">
+                    <button id="modal" class="btn-modal">Saiba Mais!</button>
+                </div>
+
+                <div class="modal-area">
+                    <i class="fa-solid fa-xmark close"></i>
+                    <a href="#" class="who" id="link">Quem sou eu</a>
+                    <a href="#" class="professional" id="link">Experiência profissional</a>
+                    <a href="#" class="skills" id="link">Habilidades</a>
+                    <a href="#" class="projects" id="link">Projetos</a>
+                </div>
+
+                <h1 class="skills-text">Habilidades</h1>
+                <div class="search-bar">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <input type="text" name="search" placeholder="  Pesquise pela skill desejada!">
+                </div>
+                <div class="center">
+
+                    <div class="code-skills">
+                        <i class="fa-brands fa-html5 icon"></i>
+                        <div class="code-text" id="html">
+                            <h1 class=" skills-text">HTML</h1>
+                            <ul class="ul-skills">
+                                <li>Flex-box</li>
+                                <li>UX/UI</li>
+                                <li>Grid</li>
+                                <li>SMO E SEO</li>
+                                <li>HTML5</li>
+                            </ul><!--ul-skills-->
+                        </div><!--code-text-->
+                    </div><!--code-skills-->
+
+                    <div class="code-skills">
+                        <i class="fa-brands fa-css3 icon"></i>
+                        <div class="code-text" id="css">
+                            <h1 class="skills-text css-text">CSS</h1>
+                            <ul class="ul-skills">
+                                <li>Key Frames</li>
+                                <li>Media Queries</li>
+                                <li>CSS3</li>
+                                <li>Hierarquias</li>
+                                <li>Variáveis</li>
+                            </ul><!--ul-skills-->
+                        </div><!--code-text-->
+                    </div><!--code-skills-->
+
+                    <div class="code-skills" id="bootstrap">
+                        <i class="fa-brands fa-bootstrap icon"></i>
+                        <div class="code-text" >
+                            <h1 class=" skills-text">Bootstrap</h1>
+                            <ul class="ul-skills">
+                                <li>Layout Grid</li>
+                                <li>Cards</li>
+                                <li>Alertas</li>
+                                <li>Navbars</li>
+                                <li>Breadcrumbs</li>
+                            </ul><!--ul-skills-->
+                        </div><!--code-text-->
+                    </div><!--code-skills-->
+                    <div class="code-skills" id="js">
+                        <i class="fa-brands fa-js icon"></i>
+                        <div class="code-text" >
+                            <h1 class=" skills-text">JavaScript</h1>
+                            <ul class="ul-skills">
+                                <li>Promises</li>
+                                <li>Funções assíncronas</li>
+                                <li>Comandos de repetição</li>
+                                <li>Comandos de decisão</li>
+                                <li>jQuery</li>
+                            </ul><!--ul-skills-->
+                        </div><!--code-text-->
+                    </div>
+                    <div class="code-skills" id="node">
+                        <i class="fa-brands fa-node-js icon"></i>
+                        <div class="code-text" >
+                            <h1 class=" skills-text">Node</h1>
+                            <ul class="ul-skills">
+                                <li>Axios</li>
+                                <li>HTTP</li>
+                                <li>JSON-server</li>
+                                <li>File System</li>
+                            </ul><!--ul-skills-->
+                        </div><!--code-text-->
+                    </div>
+                    <div class="code-skills" id="php">
+                        <i class="fa-brands fa-php icon"></i>
+                        <div class="code-text" >
+                            <h1 class="skills-text">PHP</h1>
+                            <ul class="ul-skills">
+                                <li>PHP Orientado a Objetos</li>
+                                <li>MySQL</li>
+                                <li>Formulários</li>
+                            </ul><!--ul-skills-->
+                        </div><!--code-text-->
+                    </div><!--code-skills-->
+                    <div class="code-skills" id="agile">
+                        <i class="fa-solid fa-rotate-right icon"></i>
+                        <div class="code-text" >
+                            <h1 class=" skills-text">Agile</h1>
+                            <ul class="ul-skills">
+                                <li>Scrum</li>
+                                <li>Kanban</li>
+                                <li>OKR</li>
+                                <li>Lean</li>
+                                <li>Design Thinking</li>
+                                <li>Management 3.0</li>
+                                <li>Antifragilidade</li>
+                            </ul><!--ul-skills-->
+                        </div><!--code-text-->
+                    </div><!--code-skills-->
+                    <div class="code-skills" id="law">
+                        <i class="fa-solid fa-gavel icon"></i>
+                        <div class="code-text" >
+                            <h1 class="skills-text">Direito</h1>
+                            <ul class="ul-skills">
+                                <li>Análise de petições</li>
+                                <li>Cargas</li>
+                                <li>Elaboração de documentos</li>
+                                <li>Arquivamento</li>
+                                <li>Remontagem</li>
+                                <li>Higienização</li>
+                                <li>Conferência</li>
+                                <li>Indexação</li>
+                                <li>Digitalização</li>
+                                <li>E-mails profissionais</li>
+                            </ul><!--ul-skills-->
+                        </div><!--code-text-->
+                    </div><!--code-skills-->
+                    <div class="code-skills" id="english">
+                        <i class="fa-solid fa-flag-usa icon"></i></i>
+                        <div class="code-text" >
+                            <h1 class="skills-text english-text">Inglês</h1>
+                            <ul class="ul-skills">
+                                <li>Fluente</li>
+                            </ul><!--ul-skills-->
+                        </div><!--code-text-->
+                    </div><!--code-skills-->
+                    <div class="code-skills" id="japanese">
+                        <i class="fa-solid fa-bowl-rice icon"></i>
+                        <div class="code-text" >
+                            <h1 class="skills-text">Japonês</h1>
+                            <ul class="ul-skills">
+                                <li>Avançado</li>
+                            </ul><!--ul-skills-->
+                        </div><!--code-text-->
+                    </div><!--code-skills-->
+                    <div class="code-skills" id="portuguese">
+                        <i class="fa-solid fa-flag icon"></i>
+                        <div class="code-text">
+                            <h1 class="skills-text">Português</h1>
+                            <ul class="ul-skills">
+                                <li>Fluente</li>
+                            </ul><!--ul-skills-->
+                        </div><!--code-text-->
+                    </div><!--code-skills-->
+                    <div class="code-skills" id="resiliense">
+                        <i class="fa-solid fa-hand-fist icon"></i>
+                        <div class="code-text">
+                            <h1 class="skills-text">Resiliência</h1>
+                            <ul class="ul-skills">
+                                <li>Trabalho sob pressão</li>
+                                <li>Perseverança ao enfrentar problemas complexos</li>
+                            </ul><!--ul-skills-->
+                        </div><!--code-text-->
+                    </div><!--code-skills-->
+                    <div class="code-skills" id="inteligence">
+                        <i class="fa-solid fa-brain icon"></i>
+                        <div class="code-text">
+                            <h1 class="skills-text">Inteligência Emocional</h1>
+                            <ul class="ul-skills">
+                                <li>Comunicação não violenta</li>
+                                <li>Empatia perante atritos de equipe</li>
+                            </ul><!--ul-skills-->
+                        </div><!--code-text-->
+                    </div><!--code-skills-->
+                    <div class="code-skills" id="oratory">
+                        <i class="fa-solid fa-microphone icon"></i>
+                        <div class="code-text">
+                            <h1 class="skills-text">Oratória</h1>
+                            <ul class="ul-skills">
+                                <li>Comunicação assertiva</li>
+                                <li>Transparência</li>
+                            </ul><!--ul-skills-->
+                        </div><!--code-text-->
+                    </div><!--code-skills-->
+                    <div class="code-skills" id="office">
+                        <i class="fa-regular fa-file-excel icon"></i>
+                        <div class="code-text" id="office">
+                            <h1 class="skills-text">Pacote Office</h1>
+                            <ul class="ul-skills">
+                                <li>Avançado</li>
+                            </ul><!--ul-skills-->
+                        </div><!--code-text-->
+                    </div><!--code-skills-->
+                </div><!--center-->
             </section><!--habilidades-->
             <section class="projetos">
+                <div class="btn-click">
+                    <button id="modal" class="btn-modal">Saiba Mais!</button>
+                </div>
+
+
+                <div class="modal-area">
+                    <i class="fa-solid fa-xmark close"></i>
+                    <a href="#" class="who" id="link">Quem sou eu</a>
+                    <a href="#" class="professional" id="link">Experiência profissional</a>
+                    <a href="#" class="skills" id="link">Habilidades</a>
+                    <a href="#" class="projects" id="link">Projetos</a>
+                </div><!--modal-area-->
                 <h1>Projetos</h1>
             </section><!--projetos-->
             <section class="quem-sou">
-            <h1>Quem sou eu?</h1>
-            <p class="about">Olá! Sou o Gusthavo Soares, tenho 18 anos e sou engenheiro de software com foco na criação
-                Full-Stack, seja para criar um site, aplicativo ou banco de dados.</p>
-            <section class="area-interest">
-                        <h4>Meus interesses</h4>
-                        <div class="wrap-img">
-                            <img src="./img/front.jpg" alt="principais linguagens front-end" class="one">
-                            <span>Front-end</span>
+
+                <h1>Quem sou eu?</h1>
+                <p class="about">Olá! Sou o Gusthavo Soares, tenho 18 anos e sou engenheiro de software com foco na
+                    criação
+                    Full-Stack, seja para criar um site, aplicativo ou banco de dados.</p>
+                <div class="btn-click">
+                    <button id="modal" class="btn-modal">Saiba Mais!</button>
+                </div>
+
+
+                <div class="modal-area">
+
+                    <i class="fa-solid fa-xmark close"></i>
+                    <a href="#" class="who" id="link">Quem sou eu</a>
+                    <a href="#" class="professional" id="link">Experiência profissional</a>
+                    <a href="#" class="skills" id="link">Habilidades</a>
+                    <a href="#" class="projects" id="link">Projetos</a>
+                </div>
+                <section class="area-interest">
+                    <h4>Meus interesses</h4>
+                    <div class="wrap-img">
+                        <img src="./img/front.jpg" alt="principais linguagens front-end" class="one">
+                        <span>Front-end</span>
+                    </div><!--wrap-->
+                    <div class="wrap-img">
+                        <img class="two" src="./img/backend.jpg" alt="principais linguagens back-end">
+                        <span>Back-end</span>
+                    </div><!--wrap-img-->
+                    <div class="wrap-img">
+                        <img class="three" src="./img/languages.png" alt="ola em diferentes línguas">
+                        <span>Línguas</span>
+                    </div><!--wrap-img-->
+                </section><!--area-interest-->
+                <section class="diferencial">
+                    <h1>Metodologia</h1>
+                    <div class="box-flex">
+                        <div class="wrap">
+
+                            <i class="fa-solid fa-helmet-safety"></i>
+
+
+                            <div class="text">
+
+                                <h3>Sites estruturados</h3>
+                                <p>Sites estruturados com boas práticas de codificação</p>
+                            </div><!--text-->
                         </div><!--wrap-->
-                        <div class="wrap-img">
-                            <img class = "two" src="./img/backend.jpg" alt="principais linguagens back-end">
-                            <span>Back-end</span>
-                        </div><!--wrap-img-->
-                        <div class="wrap-img">
-                            <img  class = "three" src="./img/languages.png" alt="ola em diferentes línguas">
-                            <span>Línguas</span>
-                        </div><!--wrap-img-->
-            </section><!--area-interest-->
-            <section class="diferencial">
-                <h1>Metodologia</h1>
-                <div class="box-flex">
-                    <div class="wrap">
 
-                        <i class="fa-solid fa-helmet-safety"></i>
+                        <div class="wrap">
+                            <i class="fa-brands fa-codepen"></i>
+                            <div class="text">
+                                <h3 class="title-2">Clean code</h3>
+                                <p class="text-2">Poucas linhas de código para uma boa manutenção </p>
+                            </div><!--text-->
+                        </div><!--wrap-->
+                        <div class="wrap">
+                            <i class="fa-solid fa-gear"></i>
+                            <div class="text">
+                                <h3> Design responsivo</h3>
+                                <p>Seu site se adapta a qualquer tipo de dispositivo</p>
+                            </div><!--text-->
+                        </div><!--wrap-->
+                    </div><!--box-flex-->
 
-
-                        <div class="text">
-
-                            <h3>Sites estruturados</h3>
-                            <p>Sites estruturados com boas práticas de codificação</p>
-                        </div><!--text-->
-                    </div><!--wrap-->
-
-                    <div class="wrap">
-                        <i class="fa-brands fa-codepen"></i>
-                        <div class="text">
-                            <h3 class="title-2">Clean code</h3>
-                            <p class="text-2">Poucas linhas de código para uma boa manutenção </p>
-                        </div><!--text-->
-                    </div><!--wrap-->
-                    <div class="wrap">
-                        <i class="fa-solid fa-gear"></i>
-                        <div class="text">
-                            <h3> Design responsivo</h3>
-                            <p>Seu site se adapta a qualquer tipo de dispositivo</p>
-                        </div><!--text-->
-                    </div><!--wrap-->
-                </div><!--box-flex-->
-           
-            </section><!--diferencial-->
-           
-        </div><!--side-info__flex-right-->
-        </section><!--side-info-->
-
-
-
+                </section><!--diferencial-->
 
         </div><!--side-info__flex-right-->
+    </section><!--side-info-->
+
+
+
+    </div><!--side-info__flex-right-->
     </section>
-    
+
     <footer>
-            <div class="copy">
-             <i class="fa-regular fa-copyright"></i>
-             <p>Todos os direitos reservados a Gusthavo Soares
+        <div class="copy">
+            <i class="fa-regular fa-copyright"></i>
+            <p>Todos os direitos reservados a Gusthavo Soares
             </p>
-            </div>
+        </div>
         <div class="social-media">
             <a href="https://www.linkedin.com/in/gusthavo-soares-74b5a4224/"><i class="fa-brands fa-linkedin"></i></a>
             <a href="https://github.com/GusthavoSoares"><i class="fa-brands fa-github"></i></a>
         </div>
-    </div>
-    </footer> 
+        </div>
+    </footer>
 
 
 
