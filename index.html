@@ -7,8 +7,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1.0">
     <meta name="author" content="Gusthavo Soares">
     <meta name="keywords" content="HTML5,CSS3,jQuery,Github, portfolio, desenvolvimento web">
-    <meta name="description"
-        content="Este é meu portfólio utilizando CSS3, HTML5, Font Awesome, jQuery e JqueryUI, além de JS">
+    <meta name="description" content="Este é meu portfólio utilizando CSS3, HTML5, Font Awesome, jQuery e JqueryUI, além de JS">
+    <meta property="og:title" content="Portfólio - Gusthavo Soares">
+    <meta property="og:site_name" content="Portfólio">
+    <meta property="og:description" content="Portfólio feito com HTML5, CSS, JavaScript e jQuery!">
+    <meta property="og:url" context="https/gusthavosoares/portfolio">
+    <meta property="og:image" content="./img/front.jpg">
+    <meta property="og:image:type" content="image/jpeg">
     <title>Gusthavo Soares - Portfólio</title>
     <link rel="stylesheet" href="./css/style.css">
 </head>
@@ -45,24 +50,89 @@
         </div><!--center-->
         <div class="clear"></div>
     </header>
-
-    <section class="slider">
-        
-    </section>
-    <div class="footer-wrap">
-    <footer>
-        <div class="copy">
-         <i class="fa-regular fa-copyright"></i>
-         <p>Todos os direitos reservados a Gusthavo Soares
-        </p>
+    
+    <section class="slider" id="slider1">
+        <div class="overlay"></div>
+        <div class="txt-slider">
+            <h1>"O medo é o combustível dos nossos sonhos!"</h1>
+            <p class="gust">Gusthavo Lourenço Rios Soares</p>
         </div>
-    <div class="social-media">
-        <a href="https://www.linkedin.com/in/gusthavo-soares-74b5a4224/"><i class="fa-brands fa-linkedin"></i></a>
-        <a href="https://github.com/GusthavoSoares"><i class="fa-brands fa-github"></i></a>
-    </div>
-</div>
-</footer> 
-</div><!--footer-wrap-->
+        <img src="./img/16_foto_2.jpg" alt="">
+        <img src="./img/frameworks.png" alt="">
+        <img src="./img/frameworks_2.png" alt="">
+    </section>
+    
+
+        <section class ="information">
+        <div class="welcome">
+            <h1>Bem-vindo ao portfólio!</h1>
+            <p>Olá, sou o Gusthavo Soares e neste porfólio utilizei meus principais conhecimentos em desenvolvimento web para falar um pouco sobre quem eu sou.</p>
+            <p>A programação para mim é justamente transformar as necessidades dos clientes em  um sistema estrutura que preencha qualquer necessidade do mesmo.</p>
+            
+        </div>
+        <div class="info-about">
+        <div class="summary">
+            <div class="text-summary">
+                <h2>Sumário executivo</h2>
+            </div><!--text-summary-->
+            <div class="summary-items">
+                <div class="summary-number"><i class="fa-solid fa-1"></i></div><li>
+                HTML, CSS, JS e Jquery</li>
+                <div class="summary-number"><i class="fa-solid fa-2"></i></div><li>Inglês fluente</li>
+                <div class="summary-number"><i class="fa-solid fa-3"></i></div><li>Japonês avançado</li>
+                <div class="summary-number"><i class="fa-solid fa-4"></i></div><li>Amplo conhecimento jurídico</li>
+                
+            </div><!--summary-items-->
+            <!-- TODO: Botões para modificar a box -->
+        </div><!--summary-->
+            <div class="price">
+                <div class="price-text">
+                    <h1>Preços</h1>
+                </div><!--price-text-->
+                <div class="price-item">
+                        <h1>Landing Page</h1>
+                    <div class ="item-price-info">
+                        <li>Página única</li>
+                        <li>Site completo</li>
+                        <li class="value">R$250</li>
+                    </div><!--item-price-info-->
+                </div><!--price-item-->
+                <div class="price-item">
+                        <h1>Site Multipage</h1>
+                    <div class ="item-price-info">
+                        <li>Várias páginas</li>
+                        <li>Inclui banco de dados</li>
+                        <li>Todo seu conteúdo bem dividido!</li>
+                        <li class="value">R$700</li>
+                    </div><!--item-price-info-->
+                </div><!--price-item-->
+                <div class="price-item">
+                        <h1>Site Empresarial</h1>
+                    <div class ="item-price-info">
+                        <li>Site para sua empresa</li>
+                        <li>Banco de dados dinâmico</li>
+                        <li>Apresente sua marca ao mundo!</li>
+                        <li class="value">R$2000</li>
+                    </div><!--item-price-info-->
+                </div><!--price-item-->
+
+                </div>
+            </div><!--price-->
+        </div><!--info-about-->    
+        </section>
+ 
+        
+        <footer>
+        <div class="copy">
+            <i class="fa-regular fa-copyright"></i>
+            <p>Todos os direitos reservados a Gusthavo Soares
+            </p>
+        </div><!--copy-->
+        <div class="social-media">
+            <a href="https://www.linkedin.com/in/gusthavo-soares-74b5a4224/"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="https://github.com/GusthavoSoares"><i class="fa-brands fa-github"></i></a>
+        </div><!--social-media-->
+    </footer>
 
     <script src="https://kit.fontawesome.com/df85906e6a.js" crossorigin="anonymous"></script>
     <script src="https://code.jquery.com/jquery-3.6.4.min.js"
@@ -70,7 +140,6 @@
     <script src="https://code.jquery.com/ui/1.13.1/jquery-ui.min.js"
         integrity="sha256-eTyxS0rkjpLEo16uXTS0uVCS4815lc40K2iVpWDvdSY=" crossorigin="anonymous"></script>
     <script src="./js/index.js">
-
     </script>
 </body>
 
