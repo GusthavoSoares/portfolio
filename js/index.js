@@ -118,8 +118,8 @@ $(function () {
         sec4.css('display', 'block')
     })
 
-    var input2 = document.getElementById('search-input')
-    input2.addEventListener('keyup', pesquisar())
+    // var input2 = document.getElementById('search-input')
+    // input2.addEventListener('keyup', pesquisar())
 
 
    
