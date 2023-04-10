@@ -1002,6 +1002,11 @@ section.form-contato {
 
 }
 
+.form-contato>form>input.btn-contact:hover {
+    transition:1s;
+    transform:scale(1.02);
+}
+
 .form-contato>form>input[type='tel'] {
     margin-bottom: 20px;
 }
@@ -1721,5 +1726,3 @@ ul.ul-skills li {
 
 
 }
-
-@media screen and (max-width:300px) {}
