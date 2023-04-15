@@ -1,12 +1,4 @@
-//TODO = Utilizar o fileSystem com vscode
 
-const fs = require('fs')
-
-var lerValores = fs.readFileSync('./js/pesquisa.json',(err)=>{
-    alert('Ocorreu um erro ao ler o arquivo JSON')
-})
-
-console.log(lerValores);
 
 
 
