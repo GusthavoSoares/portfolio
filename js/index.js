@@ -1,10 +1,4 @@
 
-
-
-
-
-
-
 //Jquery + JS
 $(function () {
     var indiceAtual = 0;
@@ -13,25 +7,22 @@ $(function () {
 
     initSlider()
 
-    function initSlider(){
+    function initSlider() {
         $('.slider img').eq(0).fadeIn();
-         setInterval(function(){
-             alternarSlider()
-         },delay)
-             
-         }
-     
-     function alternarSlider(){
-         $('.slider img').eq(indiceAtual).fadeOut()
-         indiceAtual+=1
-         if(indiceAtual == indiceMaximo){
-         indiceAtual = 0;
-         }
-         $('.slider img').eq(indiceAtual).fadeIn()
-     }
+        setInterval(function () {
+            alternarSlider()
+        }, delay)
 
+    }
 
-
+    function alternarSlider() {
+        $('.slider img').eq(indiceAtual).fadeOut()
+        indiceAtual += 1
+        if (indiceAtual == indiceMaximo) {
+            indiceAtual = 0;
+        }
+        $('.slider img').eq(indiceAtual).fadeIn()
+    }
 
     var right = $('.side-info__flex-right')
     var who = $('.who')
@@ -51,11 +42,6 @@ $(function () {
     var mobile = $('.menu__mobile i')
 
     ativarModal()
-
-
-
-
-
 
 
     if (mobile.css('display', 'block')) {
@@ -121,8 +107,8 @@ $(function () {
     // input2.addEventListener('keyup', pesquisar())
 
 
-   
-   
-    
+
+
+
 })
 
