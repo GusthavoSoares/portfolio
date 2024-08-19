@@ -1,0 +1,40 @@
+.skills_container {
+  display: grid;
+  place-items: center;
+  padding-top: 2%;
+}
+
+
+.skills_search {
+  display: flex;
+  background-color: var(--accent-color);
+  align-items: center;
+  padding: 0.5%;
+  border-radius: 0.5rem;
+}
+
+.skills_search>span,
+.skills_search>input {
+  background-color: var(--secondary-color);
+  color: var(--terceary-color);
+}
+
+.skills_search>input::placeholder {
+  color: var(--terceary-color);
+}
+
+.skills_search>input {
+  padding: 0.55rem;
+  border: 0;
+  outline: 0;
+}
+
+.skills_search>input:focus {
+  transition: 1s;
+  background-color: var(--terceary-color);
+  color: var(--secondary-color);
+}
+
+.skills_search>input:focus::placeholder {
+  color: var(--secondary-color);
+}
