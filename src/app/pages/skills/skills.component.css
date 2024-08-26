@@ -38,3 +38,21 @@
 .skills_search>input:focus::placeholder {
   color: var(--secondary-color);
 }
+
+.skills_list {
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+}
+
+
+@media screen and (max-width:1024px) {
+  .skills_list {
+    grid-template-columns: 50% 50%;
+  }
+}
+
+@media screen and (max-width:720px) {
+  .skills_list {
+    grid-template-columns: 100%;
+  }
+}

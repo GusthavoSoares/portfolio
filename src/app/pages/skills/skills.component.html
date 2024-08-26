@@ -7,4 +7,11 @@
     <input type="search" placeholder="Search for some skill" />
   </form>
 </section>
+<section class="skills_list">
+  @for (skill of skills; track skill.id){
+  <app-card cardTitle="{{skill.name}}">
+    <i class="fa-brands {{skill.icon}}"></i>
+  </app-card>
+  }
+</section>
 <app-footer></app-footer>

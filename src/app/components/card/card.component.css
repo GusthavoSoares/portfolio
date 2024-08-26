@@ -1,0 +1,18 @@
+.card {
+  display: grid;
+  background: var(--secondary-color);
+  margin: 2%;
+  grid-template-columns: 100%;
+  place-items: center;
+  border-radius: 1rem;
+  font-size: 2rem;
+  border: 0.5rem solid var(--terceary-color);
+}
+
+.card_item {
+  color: var(--terceary-color);
+}
+
+.card_details {
+  color: var(--accent-color);
+}
