@@ -1,2 +1,25 @@
 <app-menu />
+<app-container>
+  <h1>Programming is more than just make a system. You can solve problems by technology</h1>
+  <app-image path="#"></app-image>
+</app-container>
+<app-container>
+  <div class="professional">
+    <h2>Gusthavo Soares</h2>
+    <p>19 years-old</p>
+    <small class="professionalRole">Data Science intern at Tribunal de Justiça do Rio Grande do Sul</small>
+  </div>
+  <app-image altText="Gusthavo Soares, the programmer who made that website"
+    path="https://github.com/GusthavoSoares.png"></app-image>
+</app-container>
+<app-container gridWidth="100">
+  <form method="post" class="form">
+    <fieldset class="formContainer">
+      <legend>Do you want to receive technology news? Subscribe to my newslater! </legend>
+      <i class="fa-solid fa-newspaper icon"></i>
+      <input type="email" pattern="^[^\s@]+@(gmail|yahoo|hotmail)\.com$" placeholder="validmail@gmail.com">
+      <input type="submit" value="Subscribe" class="button">
+    </fieldset>
+  </form>
+</app-container>
 <app-footer />

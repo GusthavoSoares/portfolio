@@ -1,11 +1,11 @@
-.skills_container {
+.skillsContainer {
   display: grid;
   place-items: center;
   padding-top: 2%;
 }
 
 
-.skills_search {
+.skillsSearch {
   display: flex;
   background-color: var(--accent-color);
   align-items: center;
@@ -13,46 +13,46 @@
   border-radius: 0.5rem;
 }
 
-.skills_search>span,
-.skills_search>input {
+.skillsSearch>span,
+.skillsSearch>input {
   background-color: var(--secondary-color);
   color: var(--terceary-color);
 }
 
-.skills_search>input::placeholder {
+.skillsSearch>input::placeholder {
   color: var(--terceary-color);
 }
 
-.skills_search>input {
+.skillsSearch>input {
   padding: 0.55rem;
   border: 0;
   outline: 0;
 }
 
-.skills_search>input:focus {
+.skillsSearch>input:focus {
   transition: 1s;
   background-color: var(--terceary-color);
   color: var(--secondary-color);
 }
 
-.skills_search>input:focus::placeholder {
+.skillsSearch>input:focus::placeholder {
   color: var(--secondary-color);
 }
 
-.skills_list {
+.skillsList {
   display: grid;
   grid-template-columns: 33% 33% 33%;
 }
 
 
 @media screen and (max-width:1024px) {
-  .skills_list {
+  .skillsList {
     grid-template-columns: 50% 50%;
   }
 }
 
 @media screen and (max-width:720px) {
-  .skills_list {
+  .skillsList {
     grid-template-columns: 100%;
   }
 }

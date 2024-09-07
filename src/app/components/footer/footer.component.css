@@ -10,16 +10,16 @@
   font-size: 2rem;
 }
 
-.footer_rights {
+.footerRights {
   color: var(--terceary-color);
 }
 
-.footer_rights>p {
+.footerRights>p {
   grid-area: right;
   justify-self: center;
 }
 
-.footer_social-media {
+.footerSocialMedia {
   display: flex;
   gap: 2rem;
   font-size: 3rem;
@@ -27,13 +27,13 @@
 }
 
 
-.footer_icon {
+.footerIcon {
   color: var(--terceary-color);
   font-size: 3.2rem;
 
 }
 
-.footer_icon:hover {
+.footerIcon:hover {
   transition: 1s;
   transform: scale(1.3);
   color: var(--accent-color);

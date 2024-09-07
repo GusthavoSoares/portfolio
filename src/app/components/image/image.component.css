@@ -1,15 +1,15 @@
-.image_container {
+.imageContainer {
   width: 33.3%;
 
 }
 
-.image_container>img {
+.imageContainer>img {
   max-width: 100%;
   padding: 2%;
   background-color: var(--accent-color);
 }
 
-.image_container,
-.image_container>img {
+.imageContainer,
+.imageContainer>img {
   border-radius: 1rem;
 }
