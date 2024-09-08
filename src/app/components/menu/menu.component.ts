@@ -9,5 +9,9 @@ import { RouterLink, RouterOutlet } from '@angular/router';
   styleUrl: './menu.component.css'
 })
 export class MenuComponent {
+  showMenu: boolean = false;
 
+  toggleMenu() {
+    this.showMenu = !this.showMenu;
+  }
 }

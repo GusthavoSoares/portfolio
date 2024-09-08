@@ -11,14 +11,14 @@
   font-size: 3rem;
 }
 
-.menu_links {
+.menuLinks {
   display: flex;
   place-items: center;
   gap: 5%;
 }
 
 
-.menu_links>div {
+.menuLinks>div {
   display: flex;
   place-items: center;
   margin: 2% 0;
@@ -27,12 +27,67 @@
 
 }
 
-.menu_links>div>a {
+.menuLinks>div>a {
   color: var(--secondary-color);
 
 }
 
-.menu_links>div:hover {
+.menuLinks>div:hover>span,
+.menuLinks>div:hover>a {
   transition: 1s;
-  color: var(--primary-color);
+  color: var(--accent-color);
+}
+
+.mobileIcon {
+  display: none;
+}
+
+@media screen and (max-width:720px) {
+  .menuLinks {
+    display: none;
+  }
+
+  .mobileIcon {
+    display: block;
+    font-size: 2rem;
+    cursor: pointer;
+    justify-self: end;
+    width: 20%;
+  }
+
+  .mobileIcon:hover {
+    transition: 1s;
+    color: var(--accent-color);
+  }
+
+  .menuMobileLinks {
+    position: absolute;
+    top: 1%;
+    transform: translateY(23%);
+    background: var(--terceary-color);
+    width: 100%;
+    display: grid;
+    place-items: center;
+
+  }
+
+  .menuMobileLinks>div {
+    display: flex;
+    place-items: center;
+  }
+
+  .menuMobileLinks>div>span,
+  .menuMobileLinks>div>a {
+    cursor: pointer;
+    color: var(--primary-color);
+  }
+
+  .menuMobileLinks>div:hover>span,
+  .menuMobileLinks>div:hover>a {
+    transition: 1s;
+    color: var(--accent-color);
+
+  }
+
+
 }
