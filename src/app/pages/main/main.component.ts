@@ -15,5 +15,4 @@ import { ContainerComponent } from '../../components/container/container.compone
   styleUrl: './main.component.css'
 })
 export class MainComponent {
-
 }
