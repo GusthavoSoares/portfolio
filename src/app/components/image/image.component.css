@@ -1,15 +1,15 @@
-.image_container {
-  width: 33.3%;
-
+.imageContainer {
+  display: grid;
+  place-items: center;
 }
 
-.image_container>img {
-  max-width: 100%;
+.imageContainer>img {
+  max-width: 50%;
   padding: 2%;
   background-color: var(--accent-color);
 }
 
-.image_container,
-.image_container>img {
+.imageContainer,
+.imageContainer>img {
   border-radius: 1rem;
 }

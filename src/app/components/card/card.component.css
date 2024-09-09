@@ -9,10 +9,10 @@
   border: 0.5rem solid var(--terceary-color);
 }
 
-.card_item {
+.cardItem {
   color: var(--terceary-color);
 }
 
-.card_details {
+.cardDetails {
   color: var(--accent-color);
 }

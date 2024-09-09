@@ -1,0 +1,18 @@
+.grid100 {
+  display: grid;
+}
+
+.grid50-50 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  place-items: center;
+
+}
+
+.grid100,
+.grid50-50 {
+  margin: 1.5rem;
+  background-color: var(--terceary-color);
+  border-radius: 1rem;
+  padding: 0.5%;
+}

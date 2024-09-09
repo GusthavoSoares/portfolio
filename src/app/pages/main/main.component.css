@@ -1,0 +1,46 @@
+h1 {
+  font-size: 1.2rem;
+  color: var(--secondary-color);
+}
+
+.form {
+  display: grid;
+  text-align: center;
+  width: 100%;
+}
+
+.formContainer {
+  border: 0;
+  padding: 0.5rem;
+}
+
+
+.formContainer>legend,
+.icon {
+  color: var(--accent-color);
+  font-size: 1.2rem;
+}
+
+
+.formContainer {
+  background: var(--primary-color);
+  border-radius: 0.5rem;
+}
+
+.formContainer>legend {
+  background: var(--terceary-color);
+  border-radius: 2rem;
+  padding: 0.5%;
+}
+
+.formContainer>input[type="email"] {
+  background: var(--primary-color);
+  outline: 0;
+  border: 0;
+  margin: 0 2%;
+  color: var(--terceary-color);
+}
+
+.formContainer>input[type="email"]::placeholder {
+  color: var(--terceary-color);
+}

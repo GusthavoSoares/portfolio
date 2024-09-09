@@ -1,13 +1,13 @@
 <app-menu></app-menu>
-<section class="skills_container">
-  <form class="skills_search">
+<section class="skillsContainer">
+  <form class="skillsSearch">
     <span class="material-symbols-outlined">
       search
     </span>
     <input type="search" placeholder="Search for some skill" />
   </form>
 </section>
-<section class="skills_list">
+<section class="skillsList">
   @for (skill of skills; track skill.id){
   <app-card cardTitle="{{skill.name}}">
     <i class="fa-brands {{skill.icon}}"></i>
