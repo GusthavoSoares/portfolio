@@ -44,3 +44,19 @@ h1 {
 .formContainer>input[type="email"]::placeholder {
   color: var(--terceary-color);
 }
+
+.formContainer>input[type="submit"] {
+  background: var(--accent-color);
+  outline: 0;
+  border: 0;
+  border-radius: 0.5rem;
+  padding: 0.25rem;
+  color: var(--primary-color);
+  cursor: pointer;
+}
+
+.formContainer>input[type="submit"]:hover {
+  transition: 1s;
+  background: var(--primary-color);
+  color: var(--accent-color);
+}

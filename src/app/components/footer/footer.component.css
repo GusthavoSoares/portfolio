@@ -7,9 +7,9 @@
   display: grid;
   grid-template-areas: "right right right  social";
   place-items: center;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
 }
-
+ 
 .footerRights {
   color: var(--terceary-color);
 }
