@@ -1,0 +1,33 @@
+<form method="post" class="contactForm">
+  <fieldset class="contactFormBox">
+    <legend class="contactFormTitle">
+      Contact Information
+    </legend>
+    <div>
+      <label for="mail" class="mailTitle">Email</label>
+    </div>
+    <div class="contactFormMailBox">
+      <i class="fa-solid fa-envelope icon"></i>
+      <input type="email" required id="mail" placeholder="Insert a valid e-mail like example@mail.com">
+    </div>
+    <div>
+      <label for="projectType" class="projectTitle">Project type</label>
+    </div>
+    <div class="projectSelectionBox">
+      <select class="projectSelection" id="projectType">
+        @for (project of projects; track project.field){
+        <optgroup label="{{project.field}}">
+          @for(demand of project.demands;track demand.name){
+          <option value="{{demand.name}">
+            {{demand.name}}
+            (R${{demand.price}})</option>
+          }
+        </optgroup>
+        }
+      </select>
+    </div>
+    <div class="sendButtonBox">
+      <input class="sendButton" type="submit" value="Send">
+    </div>
+  </fieldset>
+</form>
