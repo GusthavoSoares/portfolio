@@ -28,9 +28,10 @@ h1 {
 }
 
 .formContainer>legend {
-  background: var(--terceary-color);
-  border-radius: 2rem;
-  padding: 0.5%;
+  background: var(--primary-color);
+  border-top-left-radius: 0.5rem;
+  border-top-right-radius: 0.5rem;
+  padding: 0.25%;
 }
 
 .formContainer>input[type="email"] {

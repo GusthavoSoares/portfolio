@@ -1,0 +1,109 @@
+.contactFormBox {
+  display: grid;
+  place-items: center;
+  border: 0;
+}
+
+
+
+
+
+.contactFormTitle {
+  text-align: center;
+  color: var(--accent-color);
+  background: var(--primary-color);
+  padding: 0 2%;
+  border-radius: 0.7rem;
+  margin-bottom: 0.5rem;
+}
+
+.mailTitle,
+.projectTitle {
+  color: var(--secondary-color);
+  font-weight: bold;
+
+}
+
+.contactFormMailBox {
+  display: flex;
+  place-items: center;
+  width: 80%;
+  margin-bottom: 1%;
+}
+
+.contactFormMailBox>i {
+  font-size: 1.2rem;
+  color: var(--accent-color);
+  background-color: var(--primary-color);
+  padding: 0.45%;
+  border-top-left-radius: 1rem;
+  border-bottom-left-radius: 1rem;
+}
+
+.contactFormMailBox>input {
+  background-color: var(--primary-color);
+  width: 100%;
+  padding: 0.6%;
+  outline: 0;
+  border: 0;
+  border-bottom-right-radius: 1rem;
+  border-top-right-radius: 1rem;
+  color: var(--accent-color);
+}
+
+.contactFormMailBox>input::placeholder {
+  color: var(--accent-color);
+  text-align: center;
+}
+
+.projectSelectionBox {
+  width: 80%;
+  display: flex;
+  place-items: center;
+  margin-bottom: 0.75%;
+}
+
+.projectSelection {
+  width: 100%;
+  background: var(--primary-color);
+  border: 0;
+  color: var(--accent-color);
+  outline: 0;
+  border-radius: 0.5rem;
+  padding: 0.2%;
+}
+
+.projectSelection>optgroup {
+  text-align: center;
+}
+
+.sendButton {
+  padding: 0.25rem 2.5rem;
+  background-color: var(--primary-color);
+  border: 0;
+  color: var(--accent-color);
+  border-radius: 1rem;
+  cursor: pointer;
+  font-size: 0.9rem;
+}
+
+.sendButton:hover {
+  transition: 1s;
+  color: var(--primary-color);
+  background-color: var(--accent-color);
+}
+
+
+@media screen and (max-width:1024px) {
+  .contactFormMailBox>i {
+    padding: 0.3%;
+  }
+}
+
+
+@media screen and (max-width:700px) {
+  .contactFormMailBox>i {
+    font-size: 1.1rem;
+    padding: 0.3% 1%;
+  }
+}
