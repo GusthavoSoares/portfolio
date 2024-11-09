@@ -1,0 +1,12 @@
+<section class="experienceContainer">
+
+  <section class="experience">
+  @for(experience of experiences; track experience.end){
+    <div class="experienceText">
+      <h3>{{experience.position}}</h3>
+      <h4>{{experience.company}}</h4>
+      <small>{{ experience.start}} - {{experience.end}}</small>
+    </div>
+  }
+</section>
+</section>
