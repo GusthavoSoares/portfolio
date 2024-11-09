@@ -1,0 +1,27 @@
+.experienceContainer {}
+
+.experience {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.5%;
+  margin-top: 0.5rem;
+  margin-right: 0.5rem;
+  margin-left: 0.5rem;
+}
+
+.experienceText {
+  background: var(--secondary-color);
+  margin-top: 0.5rem;
+  padding: 0.5%;
+  color: var(--primary-color);
+  text-align: center;
+  border-radius: 1rem;
+}
+
+.experienceText:nth-child(1n) {
+  background: var(--terceary-color);
+}
+
+.experienceText:nth-child(2n) {
+  background-color: var(--accent-color);
+}
